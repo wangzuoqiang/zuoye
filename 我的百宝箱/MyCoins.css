@@ -1,0 +1,255 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+.all{
+	width: 10.0rem;
+	height: 17.777778rem;
+	margin: 0 auto;
+}
+.img1{
+	width: 100%;
+	height: 1.688889rem;
+}
+.head{
+	height: 5.04rem;
+	width: 100%;
+	border-top: 2px solid #7f7a7d;
+	margin-top:-0.044444rem;
+	background: #ffffd5;
+}
+.div1{
+	height: 1.164444rem;
+	margin-left: 0.648889rem;
+	overflow: hidden;
+}
+.div1 p:nth-child(1){
+	font-size: 0.471111rem;
+	font-weight: bold;
+	color: #e60012;
+	margin-top:0.408889rem;
+	width: 2.986667rem;
+	float: left;
+}
+.img2{
+	width: 1.333333rem;
+	height: 0.382222rem;
+	margin-right: 0.177778rem;
+}
+#span3{
+	font-size: 0.4rem;
+}
+.div1 p:nth-child(2){
+	width: 5.217778rem;
+	margin-left: 0.435556rem;
+	margin-top:0.453333rem;
+	float: left;
+	display: table-cell;
+	vertical-align: top;
+	height: 0.382222rem;
+	
+}
+.div1 p span{
+   font-size: 0.302222rem;
+   font-weight: bolder;
+   vertical-align: top;
+}
+.div1 p span:nth-child(2){
+  margin-right: 0.133333rem;
+  color: #5e5859;
+  vertical-align: top;
+  
+}
+.div1 p img{
+	vertical-align: top;
+}
+.div1 p span:nth-child(3){
+  color: #e60012;
+
+}
+.ul1{
+	width: 9.711111rem;
+	height: 3.893333rem;
+	overflow: hidden;
+    margin-left: 0.648889rem;
+}
+.ul1 li{
+	width: 3.688889rem;
+	height: 1.2rem;
+	background-color: #fa3530;
+	border-radius: 0.133333rem;
+	float: left;
+	margin-bottom: 0.204444rem;
+	margin-right: 0.204444rem;
+	padding: 0.266667rem;
+	color: white;
+	display: flex;
+	-webkit-align-items: center;
+	
+}
+.ul1 li img{
+   margin-right: 0.408889rem;
+}
+.ul1 li div p:nth-child(1){
+   font-size: 0.391111rem;
+  font-weight: bolder;
+}
+.ul1 li div p:nth-child(2){
+   font-size: 0.64rem;
+  font-weight: bolder;
+  margin-top:0.044444rem;
+  font-family: Arial Black; 
+}
+
+.ul1 li:last-child{
+	width: 4.124444rem;
+	height: 1.635556rem;
+	padding: 0;
+	background: none;
+	border: 2px dashed #f9a09e;
+	font-weight: bolder;
+	font-size: 0.426667rem;
+	color: #f9a09e;
+	line-height: 1.635556rem;
+	-webkit-justify-content: center;
+}
+.roll{
+	width: 100%;
+	height: 4.293333rem;
+	background-color: #fa3530;
+	position: relative;
+	overflow: hidden;
+}
+.ul1 li img{
+	height: 1.2rem;
+}
+#span1,#span2{
+	font-size: 0.311111rem;
+}
+.roll2{
+	
+	height: 4.293333rem;
+	position: absolute;
+	transition: 0.6s;
+	z-index: 2;
+
+}
+.roll2 div p{
+	height: 1.155556rem;
+	width: 3.386667rem;
+	margin-left: 0.684444rem;
+	font-size: 0.471111rem;
+	line-height: 1.155556rem;
+	color: #fff;
+}
+.roll2 div{
+	float: left;
+}
+
+.roll2 div p span:nth-child(2){
+  color: #fff000;
+  font-size: 0.56rem;
+  font-weight: bolder;
+}
+.div2 img{
+	width: 3.1rem;
+	height: 2.737778rem;
+    position: relative;
+}
+
+#y{
+   left: 9.3rem
+}
+button{
+	width: 0.693333rem;
+	height: 0.808889rem;
+	font-size: 0.586667rem;
+	color: white;
+	background: #534c4c;
+	border:none; 
+	position: absolute;
+	/* border-radius: 0.177778rem; */
+	opacity: 0.5;
+	top:1.8rem;
+	z-index: 5;
+}
+.btn{
+	width: 1.04rem;
+	position: absolute;
+	top:3.86rem;
+	left:4.4rem;
+	display: flex;
+	-webkit-justify-content: space-between;
+	z-index: 5;
+}
+.btn div{
+	background: #cdcbcb;
+	border-radius: 50%;
+	width: 0.24rem;
+	height: 0.24rem;
+	
+}
+.btn .active{
+	background: #534c4c;
+}
+.footer{
+	width: 8.595556rem;
+	padding: 0.213333rem 0.702222rem;
+	background-color: #ffffd5;
+	height: 6.22rem;
+}
+.f1{
+	width: 5.511111rem;
+	height: 1.128889rem;
+	background-image: url("images/t1.png");
+	font-size: 0.502222rem;
+	color: white;
+	background-size: 100%;
+	border: 0.001rem;
+	line-height: 1.128889rem;
+	margin-bottom: 0.275556rem;
+}
+.f1 p{
+	margin-left: 1.662222rem;
+}
+.xb,.xb1,.xb2{
+	width: 8.613333rem;
+	height: 1.253333rem;
+	background-repeat: no-repeat;
+	background-size: 1.706667rem 3.86rem;
+	line-height:  1.253333rem;
+	background-image: url("images/xb.png");
+	margin-bottom: 0.213333rem;
+}
+.xb{
+	background-color: #f3aa1f;
+
+}
+.xb1{
+	background-color: #f6510f;
+	background-position:0 -1.287rem;
+}
+.xb2{
+	background-color: #e9221d;
+	background-position:-0.23rem -2.573rem;
+}
+
+.xb span,.xb1 span,.xb2 span{
+	font-size: 0.417778rem;
+	color: white;
+	margin-left: 1.777778rem;
+	vertical-align: middle;
+	margin-right: 2.062222rem;
+}
+.xb span{
+	margin-right: 1.493333rem;
+}
+.xb img,.xb1 img,.xb2 img{
+	height: 1.013333rem;
+	width: 1.333333rem;
+	vertical-align: middle;
+}
+
